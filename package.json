@@ -1,0 +1,21 @@
+{
+  "name": "03-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.4"
+  }
+}
